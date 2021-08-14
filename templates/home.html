@@ -1,9 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
+<audio id="ea_audio_div" hidden>
+  <source  src="{{ url_for('static', filename='audio/eaaudio.mp3') }}" type="audio/mpeg">
+</audio>
 
 <div class="col-lg-6">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/EA_Sports.svg/1200px-EA_Sports.svg.png" width="400px">
+  <a onclick="document.getElementById('ea_audio_div').play();">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/EA_Sports.svg/1200px-EA_Sports.svg.png" width="400px">
+</a>
 </div>
 <header class="header">
   <h1>It's In The Game!</h1>

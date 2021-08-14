@@ -1,6 +1,6 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-    background: #f1f1f1;
+    background: #f8ecec7c;
   }
   
   h1 {
@@ -24,7 +24,7 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
-    background: rgb(172, 79, 79);
+    background: rgb(56, 54, 56);
     border-radius: 3px;
   }
   
@@ -38,7 +38,7 @@ body {
   .header {
     height: 200px;
     padding-top: 20px;
-    background: #752e2e;
+    /* background: #5e55557c; */
   }
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
