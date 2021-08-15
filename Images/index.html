@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Templates 101</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <!-- Render our data -->
+      <h1>{{ Machine Learning Trends by Genre and Year of Release }}</h1>
+    </div>
+
+  </div>
+    
+
+
+  <img id="image" src="Strategy.png" /> <br />
+            <select id="imgList">
+                <option value="Strategy.png">Strategy</option>
+                <option value="racing game.png">Racing</option>
+                <option value="sports.png">Sports</option>
+                <option value="battle royale.png">Battle Royale</option>
+                <option value="collectible card game.png">Collectible Cards</option>
+                <option value="fighting games.png">Fighting</option>
+                <option value="First person shooter.png">FPS</option>
+                <option value="MOBA.png">Multiplayer online battle arena</option>
+                <option value="puzzle game.png">Puzzle</option>
+                <option value="role playing game arena.png">RPG</option>
+                <option value="third person shooter.png">Third person shooter</option>
+
+            </select>
+
+            <script>
+            function setClass() {
+                var img = document.getElementById("image");
+                img.src = this.value;
+                return false;
+            }
+            document.getElementById("imgList").onchange = setClass;
+            </script>
+<br />
+  <img id="image1" src="Historic Trends/Linear Year vs Total Earnings.png" /> <br />
+            <select id="imgList1">
+                <option value="Historic Trends/Linear Year vs Total Earnings.png">Linear Year vs Earning</option>
+                <option value="Historic Trends/Linear Year vs Total Tournaments.png">Linear Year vs Tournaments</option>
+                <option value="Historic Trends/Linear Year vs Earning per Tournament.png">Linear year vs Earning per Tournament</option>
+                <option value="Historic Trends/polynomial Year vs Total Earnings.png">Poly Year vs Earning</option>
+                <option value="Historic Trends/polynomial Year vs Tournament.png">Poly Year vs Tournaments</option>
+                <option value="Historic Trends/polynomial Year vs Earning per Tournament.png">Poly year vs Earning per Tournament</option>
+               
+
+            </select>
+
+            <script>
+            function setClass() {
+                var img = document.getElementById("image1");
+                img.src = this.value;
+                return false;
+            }
+            document.getElementById("imgList1").onchange = setClass;
+            </script>
+
+
+
+
+</body>
+
+</html>
