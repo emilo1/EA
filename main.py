@@ -31,7 +31,7 @@ def about():
 
 @app.route('/visualizations')
 def visualizations():
-    twitch = "Twitch_user_data.csv"
+    # twitch = "Twitch_user_data.csv"
     # twitch_df = pd.read_csv(twitch)
     # tw_renamed_df = twitch_df.rename(columns={"Watch time(Minutes)":"Watch", "Stream time(minutes)": "Stream"})
     # # scatter
@@ -46,8 +46,8 @@ def visualizations():
     # plt.annotate(line_eq,(0,3000000),fontsize=15,color="red")
     # plt.xlabel('Followers')
     # plt.ylabel('Followers Gained')
-    # plt.show()
-    # plt.savefig('static/images/scatterplot.png')
+    # # plt.show()
+    # plt.savefig('static/images/scatterplot.png' , transparent=True)
 
     # # stacked bar chart
     # average_peak = tw_renamed_df['Peak viewers'].mean()
@@ -76,8 +76,43 @@ def visualizations():
     # ax.set_title('Peak Viewers vs Average Viewers Gained by (50) Twitch Streamers in 2020')
     # ax.legend()
 
-    # plt.show()
-    # plt.savefig('static/images/stackedbar.png')
+    # # plt.show()
+    # plt.savefig('static/images/stackedbar.png'  , transparent=True)
+
+
+    # # Bar Sub Plots
+    # csv_path = "https://raw.githubusercontent.com/emilo1/EA/Harrison_Branch/ESportsGames.csv?raw=true"
+
+    # games_df = pd.read_csv(csv_path, encoding = "utf-8")
+    # games_df.head()
+    # grouped_by_genre_df = games_df.groupby("genre")
+    # fig, axis = plt.subplots(2, 2, figsize = (20, 40))
+    # game_groups = grouped_by_genre_df["genre"].count()
+
+
+    # axis[0, 0].bar(list(game_groups.index), list(game_groups.values), color = "blue")
+    # axis[0, 0].set_xlabel("Genre")
+    # plt.setp(axis[0, 0].xaxis.get_majorticklabels(), rotation = 90)
+    # axis[0, 0].set_ylabel("Number of Games")
+
+    # player_groups = grouped_by_genre_df["totalplayers"].sum()
+    # axis[1, 0].bar(list(player_groups.index), list(player_groups.values), color = "red")
+    # axis[1, 0].set_xlabel("Genre")
+    # plt.setp(axis[1, 0].xaxis.get_majorticklabels(), rotation = 90)
+    # axis[1, 0].set_ylabel("Number of Players")
+    # prize_groups = grouped_by_genre_df["totalearnings"].mean()
+    # axis[0, 1].bar(list(prize_groups.index), list(prize_groups.values), color = "green")
+    # axis[0, 1].set_xlabel("Genre")
+    # plt.setp(axis[0, 1].xaxis.get_majorticklabels(), rotation = 90)
+    # axis[0, 1].set_ylabel("Average Prize Pool")
+    # tournament_groups = grouped_by_genre_df["totaltournaments"].sum()
+    # axis[1, 1].bar(list(tournament_groups.index), list(tournament_groups.values), color = "orange")
+    # axis[1, 1].set_xlabel("Genre")
+    # plt.setp(axis[1, 1].xaxis.get_majorticklabels(), rotation = 90)
+    # axis[1, 1].set_ylabel("Number of Tournaments")
+    # # plt.show()
+    # plt.tight_layout()
+    # plt.savefig("static/images/barsubplots.png"  , transparent=True)
     return render_template('visualizations.html')
 
 
