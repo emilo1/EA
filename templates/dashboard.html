@@ -1,0 +1,43 @@
+<!-- {% extends "base.html" %}
+
+{% set active_page = "dashboard" %}
+
+{% block content %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ESports Bar Chart</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div id="barchart"></div>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="../data/esgsby1.json"></script>
+  <script src="../static/js/dropdown.js"></script>
+
+
+
+<select id="selDataset">
+  <option value="ESportsAll">All Genres</option>
+  <option value="ESportsBattle">Battle Royale</option>
+  <option value="ESportsCard">Collectible Game Card</option>
+  <option value="ESportsFighting">Fighting Game</option>
+  <option value="ESportsFirst">First-Person Shooter</option>
+  <option value="ESportsArena">Multiplayer Online Battle Arena</option>
+  <option value="ESportsPuzzle">Puzzle Game</option>
+  <option value="ESportsRacing">Racing</option>
+  <option value="ESportsRole">Role-Playing Game</option>
+  <option value="ESportsSports">Sports</option>
+  <option value="ESportsStrategy">Strategy</option>
+  <option value="ESportsThird">Third-Person Shooter</option>
+
+
+</select>
+
+</div>
+
+<!-- {% endblock %} -->
