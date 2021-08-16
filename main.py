@@ -1,6 +1,9 @@
 
 from flask import Flask, render_template, jsonify
-import pandas as pd 
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+from scipy.stats import linregress 
 
 app = Flask(__name__)
 
@@ -26,9 +29,56 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/data')
-def data():
-    return render_template('data.html')
+@app.route('/visualizations')
+def visualizations():
+    twitch = "Twitch_user_data.csv"
+    # twitch_df = pd.read_csv(twitch)
+    # tw_renamed_df = twitch_df.rename(columns={"Watch time(Minutes)":"Watch", "Stream time(minutes)": "Stream"})
+    # # scatter
+    # fig,ax = plt.subplots(figsize=(20,10))
+    # x_values = tw_renamed_df['Followers']
+    # y_values = tw_renamed_df['Followers gained']
+    # (slope, intercept, rvalue, pvalue, stderr) = linregress(x_values, y_values)
+    # regress_values = x_values * slope + intercept
+    # line_eq = "y = " + str(round(slope,2)) + "x + " + str(round(intercept,2))
+    # ax.scatter(x_values,y_values)
+    # plt.plot(x_values,regress_values,"r-")
+    # plt.annotate(line_eq,(0,3000000),fontsize=15,color="red")
+    # plt.xlabel('Followers')
+    # plt.ylabel('Followers Gained')
+    # plt.show()
+    # plt.savefig('static/images/scatterplot.png')
+
+    # # stacked bar chart
+    # average_peak = tw_renamed_df['Peak viewers'].mean()
+    # view_mean = tw_renamed_df['Views gained'].mean()
+    # viewer_mean = tw_renamed_df['Average viewers'].mean()
+
+    # period = np.arange(1000, 20000000, 1000)
+    # peak = tw_renamed_df.iloc[0:50]['Peak viewers']
+    # average = tw_renamed_df.iloc[0:50]['Average viewers']
+    # views = tw_renamed_df.iloc[0:50]['Views gained']
+    # users = tw_renamed_df.iloc[0:50]['Channel']
+
+    # labels = users.values
+    # men_means = peak.values
+    # women_means = average.values
+    # width = 0.35       # the width of the bars: can also be len(x) sequence
+
+    # fig, ax = plt.subplots(figsize=(20,5))
+
+    # plt.setp(ax.xaxis.get_majorticklabels(), rotation = 90)
+    # ax.bar(labels, men_means, width, label='Peak Viewers')
+    # ax.bar(labels, women_means, width, bottom=men_means,
+    #     label='Average Viewers')
+
+    # ax.set_ylabel('Viewers')
+    # ax.set_title('Peak Viewers vs Average Viewers Gained by (50) Twitch Streamers in 2020')
+    # ax.legend()
+
+    # plt.show()
+    # plt.savefig('static/images/stackedbar.png')
+    return render_template('visualizations.html')
 
 
 @app.route('/api/games')
