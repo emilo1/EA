@@ -36,17 +36,17 @@ def visualizations():
     # twitch_df = pd.read_csv(twitch)
     # tw_renamed_df = twitch_df.rename(columns={"Watch time(Minutes)":"Watch", "Stream time(minutes)": "Stream"})
     # # scatter
-    # fig,ax = plt.subplots(figsize=(20,10))
+    # fig,ax = plt.subplots(figsize=(15,7))
     # x_values = tw_renamed_df['Followers']
     # y_values = tw_renamed_df['Followers gained']
     # (slope, intercept, rvalue, pvalue, stderr) = linregress(x_values, y_values)
     # regress_values = x_values * slope + intercept
     # line_eq = "y = " + str(round(slope,2)) + "x + " + str(round(intercept,2))
     # ax.scatter(x_values,y_values)
-    # plt.plot(x_values,regress_values,"r-")
-    # plt.annotate(line_eq,(0,3000000),fontsize=15,color="red")
-    # plt.xlabel('Followers')
-    # plt.ylabel('Followers Gained')
+    # ax.plot(x_values,regress_values,"r-")
+    # ax.annotate(line_eq,(0,3000000),fontsize=15,color="red")
+    # ax.set_xlabel('Followers')
+    # ax.set_ylabel('Followers Gained')
     # # plt.show()
     # plt.savefig('static/images/scatterplot.png' , transparent=True)
 
@@ -66,7 +66,7 @@ def visualizations():
     # women_means = average.values
     # width = 0.35       # the width of the bars: can also be len(x) sequence
 
-    # fig, ax = plt.subplots(figsize=(20,5))
+    # fig, ax = plt.subplots(figsize=(15,7))
 
     # plt.setp(ax.xaxis.get_majorticklabels(), rotation = 90)
     # ax.bar(labels, men_means, width, label='Peak Viewers')
@@ -77,7 +77,7 @@ def visualizations():
     # ax.set_title('Peak Viewers vs Average Viewers Gained by (50) Twitch Streamers in 2020')
     # ax.legend()
 
-    # # plt.show()
+    # plt.show()
     # plt.savefig('static/images/stackedbar.png'  , transparent=True)
 
 
@@ -87,7 +87,7 @@ def visualizations():
     # games_df = pd.read_csv(csv_path, encoding = "utf-8")
     # games_df.head()
     # grouped_by_genre_df = games_df.groupby("genre")
-    # fig, axis = plt.subplots(2, 2, figsize = (20, 40))
+    # fig, axis = plt.subplots(2, 2, figsize = (7,13))
     # game_groups = grouped_by_genre_df["genre"].count()
 
 
