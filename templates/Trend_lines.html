@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% set active_page = "Trend_lines" %}
+
+{% block content %}
+
+<body>
+  
+   <div class="container">
+
+    <div class="jumbotron text-center">
+      <!-- Render our data -->
+      <h4>Historical Trends by Year of Tournaments   </h4>
+      <h6> The historical data is taken from over 6000 tournaments across all tournaments. </h6>
+      <h6> Data was summed by year to provide an less noisy visual. </h6>
+    </div>
+
+  </div>
+  <img id="image1" src="/static/images/Historic Trends/Linear Year vs Total Earnings.png" /> <br />
+    <div id="fillText1"> This graph shows the total earning from all games each year. With this you can see the potential market value in an esport career. From the graph it is easy to see that the Total Earnings has increased every year. The linear regression trend line is a fair approximation of future earnings, as indicated by the R squared value. The pandemic most likly influence the 2020 and 2021 season which may have made the graph more accurate. </div>
+            <select id="imgList1">
+                <option value="Linear Year vs Total Earnings">Linear Year vs Earning</option>
+                <option value="Linear Year vs Total Tournaments">Linear Year vs Tournaments</option>
+                <option value="Linear Year vs Earning per Tournament">Linear year vs Earning per Tournament</option>
+                <option value="polynomial Year vs Total Earnings">Poly Year vs Earning</option>
+                <option value="polynomial Year vs Tournament">Poly Year vs Tournaments</option>
+                <option value="polynomial Year vs Earning per Tournament">Poly year vs Earning per Tournament</option>
+               
+
+            </select>
+
+            <script>
+                var lookupValues1 = {
+                    'Linear Year vs Total Earnings': {
+                        'img':'/static/Images/Historic Trends/Linear Year vs Total Earnings.png',
+                        'txt':'This graph shows the total earning from all games each year. With this you can see the potential market value in an esport career. From the graph it is easy to see that the Total Earnings has increased every year. The linear regression trend line is a fair approximation of future earnings, as indicated by the R squared value. The pandemic most likly influence the 2020 and 2021 season which may have made the graph more accurate.'
+                    },
+                    'Linear Year vs Total Tournaments': {
+                        'img':'/static/Images/Historic Trends/Linear Year vs Total Tournaments.png',
+                        'txt':'This graph displays the total number of esports tournaments held each year, as a metric for the health and longevity of esports. From the Linear regression it is easy to see that the number of tournaments will increase in the future and the R squared value indicates this is a reasonable approximation.'
+                    },
+                    'Linear Year vs Earning per Tournament': {
+                        'img':'/static/Images/Historic Trends/Linear Year vs Earning per Tournament.png',
+                        'txt':'This graph shows the average earning per tournament for a given year, the volatility in earnings across tournaments made this the most accurate metric for potential earnings gained from tournaments. The linear regression shows a positive trend in earning which means the avg cash price should increase as esport progresses. But the R squared value shows this is the weaks correlation all the historic data. '
+                    },
+                    'polynomial Year vs Total Earnings': {
+                        'img':'/static/Images/Historic Trends/polynomial Year vs Total Earnings.png',
+                        'txt':'This graph shows the total earning from all games each year. With this you can see the potential market value in an esport career.From the graph it is easy to see that the Total Earnings has increased every year. The second degree polynomial regression trend line is a better approximation of future earnings, as indicated by the R squared value which is larger the that displayed by the Linear regression. If no for the pandemic i think this trend would have continued more strongly into 2020 and 2021.'
+                    },
+                    'polynomial Year vs Tournament': {
+                        'img':'/static/Images/Historic Trends/polynomial Year vs Tournament.png',
+                        'txt':'This graph displays the total number of esports tournaments held each year, as a metric for the health and longevity of esports. The second degree poly nomial regression offers a slighly more accurate trend line as show by the R squared value, but it is nominal in difference.'
+                    },
+                    'polynomial Year vs Earning per Tournament': {
+                        'img':'/static/Images/Historic Trends/polynomial Year vs Earning per Tournament.png',
+                        'txt':'This graph shows the average earning per tournament for a given year, the volatility in earnings across tournaments made this the most accurate metric for potential earnings gained from tournaments. The second degree polynomial regression showed the largest increase in R squared value from it Linear counter part. This means it is much more accurate in comparison. This might indicate an explosive growth in earning per tournament n future years.'
+                    }
+                 };
+
+
+            function setClass1() {
+            var img = document.getElementById("image1");
+            var fillText = document.getElementById("fillText1");
+            // get the lookup values with a key matching this.value
+            var values = lookupValues1[this.value];
+            img.src = values['img']; // the 'img' value
+            fillText1.innerHTML = values['txt']; // the 'src' value
+            return false;
+        }
+        document.getElementById("imgList1").onchange = setClass1;
+            </script>
+
+<br /> 
+
+<div class="container">
+
+    <div class="jumbotron text-center">
+      <!-- Render our data -->
+      <h4> Genre Trends by Year of Release  </h4>
+      <h6> Each graph shows the average of total earning by game across all tournaments. </h6>
+    </div>
+
+  </div>
+     <img id="image" src="/static/images/battle royale1.png"  /> <br />
+        <div id="fillText"> From the graph you can see a fairly strong downward trend. This would indicate that Battle Royale earnings may continue to decrease in future years. This data set is influence by the short existence of Battle Royale games </div>
+        <select id="imgList">
+                <option value="battle royale">Battle Royale</option>
+                <option value="collectible card game">Collectible Cards</option>
+                <option value="fighting games">Fighting</option>
+                <option value="First person shooter">FPS</option>
+                <option value="MOBA">Multiplayer online battle arena</option>
+                <option value="puzzle game">Puzzle</option>
+                <option value="racing game">Racing</option>
+                <option value="role playing game arena">RPG</option>
+                <option value="sports">Sports</option>
+                <option value="Strategy">Strategy</option>
+                <option value="third person shooter">Third person shooter</option>
+        </select>
+
+ <script>
+        var lookupValues = {
+          'battle royale': {
+            'img':'/static/images/battle royale1.png',
+            'txt':'From the graph you can see a fairly strong downward trend. This would indicate that Battle Royale earnings may continue to decrease in future years. This data set may be influence by the short existence of Battle Royale games'
+          },
+          'collectible card game': {
+            'img':'/static/images/collectible card game1.png',
+            'txt':'From the graph you can see a fairly strong downward trend. From the large gap in game release this would indicate that newer version of Collectible card games may be less popular then those from 2002, but a linear regression may not be the most suitable modle'
+          },
+          'fighting games': {
+            'img':'/static/images/fighting games1.png',
+            'txt':'The Graph shows a slight positive trend in increased earnings for newer fighting games, as well as an increase in popularity for these games. The R-squared value indicates this is not a strong correlation. The amount of fighting games may have influence the popularity of any single game, which lead to only a slight positive trend. '
+          },
+           'First person shooter': {
+            'img':'/static/images/First person shooter1.png',
+            'txt':'The Graph shows a slight positive trend in increased earnings for newer FPS. The R-squared value shows that this is not a strong correlation. But it is easier to see that some FPS games have larger cash prizes as the years increase, then for fighting games, because they are more spreed out.'
+          },
+           'MOBA': {
+            'img':'/static/images/MOBA1.png',
+            'txt':'The Graph shows a slight positive trend in increased earnings for newer MOBA games. The R-squared value shows this is not a strong correlation, but in comparison to FPS which had a similar R squared value you can see there are fewer games with a larger avg cash prizes. So while not accurate this would indicate larger future earnings. '
+          },
+           'puzzle game': {
+            'img':'/static/images/puzzle game1.png',
+            'txt':'Puzzle Games show a slight downward trend. It is easy to see from this graph that there are few puzzle games as well as smaller cash prizes for each tournament. So if you going to drop out of Med school to become a Pro puzzler, i would suggest winning the lottery as well.'
+          },
+           'racing game': {
+            'img':'/static/images/racing game1.png',
+            'txt':'Racing games have seen a steady increase as shown by the trend line. The R squared value shows that this is one of the more accurate fits for the data. With the future of racing games looking bright. '
+          },
+           'role playing game arena': {
+            'img':'/static/images/role playing game arena1.png',
+            'txt':'From the graph you can see there are few RPGs, and the R squared value shows it is the least accurate reflection of the data from all genres. This might indicate that RPGs are not a good genre to use in tournament formats'
+          },
+           'sports': {
+            'img':'/static/images/sports1.png',
+            'txt':'The Graph shows a slight positive trend in increased earnings for newer sports. The R-squared value shows that this is not a strong correlation. But it is easier to see that some sports games have larger cash prizes as the years increase, than fighting or FPS games.'
+          },
+           'Strategy': {
+            'img':'/static/images/Strategy1.png',
+            'txt':'The Graph shows a slight positive trend in increased earnings for newer Strategy games. The R-squared value shows this is not a strong correlation, but in comparison to FPS which had a similar R squared value you can see there are fewer games with a larger avg cash prizes. So while not accurate this would indicate larger future earnings.'
+          },
+          'third person shooter': {
+            'img':'/static/images/third person shooter1.png',
+            'txt':'While there are few third person shooters in comparison to FPS, there is a pronounced positive trend. While again the R squared value indicates this line is not overly accurate it is was of the best with a positive trend for our dataset. This would point towards a bright future for third person shooters. '
+          }
+        };
+
+        function setClass() {
+            var img = document.getElementById("image");
+            var fillText = document.getElementById("fillText");
+            // get the lookup values with a key matching this.value
+            var values = lookupValues[this.value];
+            img.src = values['img']; // the 'img' value
+            fillText.innerHTML = values['txt']; // the 'src' value
+            return false;
+        }
+        document.getElementById("imgList").onchange = setClass;
+        </script>
+
+
+<br />
+
+
+
+</body>
+<br />
+</html>
+{% endblock %}
