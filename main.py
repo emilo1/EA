@@ -92,7 +92,7 @@ def Trend_lines():
     # fig1.suptitle(Genre+' Games: Release Year vs. Earnings per Tournament')
     # plt.ylabel('Earnings in USD')
     # plt.xlabel('Year')
-    # plt.savefig('static/Images/Genre Trends/Strategy1.png')
+    # plt.savefig('static/images/Genre Trends/Strategy1.png')
 
     # x=First_Person_Shooter_df['ReleaseDate']
     # y=First_Person_Shooter_df['Result']
@@ -109,7 +109,7 @@ def Trend_lines():
     # fig.suptitle(Genre+' Games: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/First person shooter1.png')
+    # plt.savefig('static/images/Genre Trends/First person shooter1.png')
             
     # x=Multiplayer_Online_Battle_Arena_df['ReleaseDate']
     # y=Multiplayer_Online_Battle_Arena_df['Result']
@@ -127,7 +127,7 @@ def Trend_lines():
     # fig.suptitle(Genre+' Games: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/MOBA1.png')
+    # plt.savefig('static/images/Genre Trends/MOBA1.png')
 
     # x=Role_Playing_Game_df['ReleaseDate']
     # y=Role_Playing_Game_df['Result']
@@ -144,7 +144,7 @@ def Trend_lines():
     # fig.suptitle(Genre+'s: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/role playing game arena1.png')
+    # plt.savefig('static/images/Genre Trends/role playing game arena1.png')
 
             
     # x=Fighting_Game_df['ReleaseDate']
@@ -162,7 +162,7 @@ def Trend_lines():
     # fig.suptitle(Genre+'s: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/fighting games1.png')
+    # plt.savefig('static/images/Genre Trends/fighting games1.png')
             
     # x=Racing_df['ReleaseDate']
     # y=Racing_df['Result']
@@ -180,7 +180,7 @@ def Trend_lines():
     # fig.suptitle(Genre+' Games: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/racing game1.png')
+    # plt.savefig('static/images/Genre Trends/racing game1.png')
 
     # x=Sports_df['ReleaseDate']
     # y=Sports_df['Result']
@@ -197,7 +197,7 @@ def Trend_lines():
     # fig.suptitle(Genre+' Games: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/sports1.png')
+    # plt.savefig('static/images/Genre Trends/sports1.png')
 
     # x=Collectible_Card_Game_df['ReleaseDate']
     # y=Collectible_Card_Game_df['Result']
@@ -215,7 +215,7 @@ def Trend_lines():
     # fig.suptitle(Genre+'s: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/collectible card game1.png')
+    # plt.savefig('static/images/Genre Trends/collectible card game1.png')
 
     # x=Puzzle_Game_df['ReleaseDate']
     # y=Puzzle_Game_df['Result']
@@ -232,7 +232,7 @@ def Trend_lines():
     # fig.suptitle(Genre+'s: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/puzzle game1.png')
+    # plt.savefig('static/images/Genre Trends/puzzle game1.png')
 
     # x=Battle_Royale_df['ReleaseDate']
     # y=Battle_Royale_df['Result']
@@ -250,7 +250,7 @@ def Trend_lines():
     # fig.suptitle(Genre+' Games: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/battle royale1.png')
+    # plt.savefig('static/images/Genre Trends/battle royale1.png')
 
     # x=Third_Person_Shooter_df['ReleaseDate']
     # y=Third_Person_Shooter_df['Result']
@@ -267,7 +267,7 @@ def Trend_lines():
     # fig.suptitle(Genre+' Games: Release Year vs. Earnings per Tournament')
     # plt.xlabel('Year')
     # plt.ylabel('Earnings in USD')
-    # plt.savefig('static/Images/Genre Trends/third person shooter1.png')
+    # plt.savefig('static/images/Genre Trends/third person shooter1.png')
 
     # df1 = pd.read_csv ('static/Data/HistoricalEsportData.csv')
     # df1 = df1[df1['Earnings'] > 0.0]
@@ -305,7 +305,7 @@ def Trend_lines():
     # plt.scatter(x, y, c='blue')
     # plt.plot([x_min[0], x_max[0]], [y_min[0], y_max[0]], c='red',label=str(Trend))
     # plt.legend()
-    # plt.savefig('static/Images/Historic Trends/Linear Year vs Total Earnings.png')
+    # plt.savefig('static/images/Historic Trends/Linear Year vs Total Earnings.png')
     
     # model1 = LinearRegression()
     # model1.fit(x, y1)
@@ -324,7 +324,7 @@ def Trend_lines():
     # plt.scatter(x, y1, c='blue')
     # plt.plot([x_min[0], x_max[0]], [y_min1[0], y_max1[0]], c='red',label=str(Trend))
     # plt.legend()
-    # plt.savefig('static/Images/Historic Trends/Linear Year vs Total Tournaments.png')
+    # plt.savefig('static/images/Historic Trends/Linear Year vs Total Tournaments.png')
 
     # model2 = LinearRegression()
     # model2.fit(x, y2)
@@ -343,7 +343,7 @@ def Trend_lines():
     # plt.scatter(x, y2, c='blue')
     # plt.plot([x_min[0], x_max[0]], [y_min2[0], y_max2[0]], c='red',label=str(Trend))
     # plt.legend()
-    # plt.savefig('static/Images/Historic Trends/Linear Year vs Earning per Tournament.png')
+    # plt.savefig('static/images/Historic Trends/Linear Year vs Earning per Tournament.png')
 
     # def objective(x, a, b, c):
     #     return a * x + b * x**2 + c
@@ -373,7 +373,7 @@ def Trend_lines():
 
     # plt.plot(x_line, y_line, '--', color='red',label=str(Trend))
     # plt.legend()
-    # plt.savefig('static/Images/Historic Trends/polynomial Year vs Total Earnings.png')
+    # plt.savefig('static/images/Historic Trends/polynomial Year vs Total Earnings.png')
 
     # def objective(x, a, b, c):
     #     return a * x + b * x**2 + c
@@ -400,7 +400,7 @@ def Trend_lines():
 
     # plt.plot(x_line, y_line, '--', color='red',label=str(Trend))
     # plt.legend()
-    # plt.savefig('static/Images/Historic Trends/polynomial Year vs Tournament.png')
+    # plt.savefig('static/images/Historic Trends/polynomial Year vs Tournament.png')
 
     # def objective(x, a, b, c):
     #     return a * x + b * x**2 + c
@@ -428,7 +428,7 @@ def Trend_lines():
 
     # plt.plot(x_line, y_line, '--', color='red',label=str(Trend))
     # plt.legend()
-    # plt.savefig('static/Images/Historic Trends/polynomial Year vs Earning per Tournament.png')
+    # plt.savefig('static/images/Historic Trends/polynomial Year vs Earning per Tournament.png')
     
     return render_template('Trend_lines.html')
 
