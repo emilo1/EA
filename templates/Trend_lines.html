@@ -17,7 +17,7 @@
 
   </div>
   <img id="image1" src="/static/images/Historic Trends/Linear Year vs Total Earnings.png" /> <br />
-    <div id="fillText1"> This graph shows the total earning for all games each year. With this you can see the potential market value in an esport career. From the graph it is easy to see that the total earnings has increased almost every year. The linear regression trend line is a fair approximation of future earnings, as indicated by the R squared value, which displays strong indicaters or growth. The pandemic most likely influenced the 2020 season limiting the total earnings.. </div>
+    <div id="fillText1" style="color:#eee"> This graph shows the total earning for all games each year. With this you can see the potential market value in an esport career. From the graph it is easy to see that the total earnings has increased almost every year. The linear regression trend line is a fair approximation of future earnings, as indicated by the R squared value, which displays strong indicaters or growth. The pandemic most likely influenced the 2020 season limiting the total earnings.. </div>
             <select id="imgList1">
                 <option value="Linear Year vs Total Earnings">Linear Year vs Earning</option>
                 <option value="Linear Year vs Total Tournaments">Linear Year vs Tournaments</option>
@@ -29,7 +29,7 @@
 
             </select>
 
-            <script style="color:rgb(245, 29, 13)">
+            <script>
                 var lookupValues1 = {
                     'Linear Year vs Total Earnings': {
                         'img':'/static/Images/Historic Trends/Linear Year vs Total Earnings.png',
@@ -64,8 +64,11 @@
             // get the lookup values with a key matching this.value
             var values = lookupValues1[this.value];
             img.src = values['img']; // the 'img' value
-            fillText1.innerHTML = values['txt']; // the 'src' value
+            
+            fillText.innerHTML = values['txt']; // the 'src' value
+            // fillText.style="color"
             return false;
+
         }
         document.getElementById("imgList1").onchange = setClass1;
             </script>
@@ -82,7 +85,7 @@
 
   </div>
      <img id="image" src="/static/images/Genre Trends/battle royale1.png"  /> <br />
-        <div id="fillText"> From the graph you can see a fairly strong downward trend. This would indicate that Battle Royale earnings may continue to decrease in future years. This data set may have been influence by the short existence of Battle Royale games </div>
+        <div id="fillText" style="color:#eee"> From the graph you can see a fairly strong downward trend. This would indicate that Battle Royale earnings may continue to decrease in future years. This data set may have been influence by the short existence of Battle Royale games </div>
         <select id="imgList">
                 <option value="battle royale">Battle Royale</option>
                 <option value="collectible card game">Collectible Cards</option>
