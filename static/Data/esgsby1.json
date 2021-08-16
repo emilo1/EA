@@ -1,0 +1,1478 @@
+[
+    {
+        "releasedate": "2013",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "1526",
+        "total_players": "4059",
+        "online_earnings": "214928871.3",
+        "total_earnings": "234795551.2",
+        "average_tournament_prize_pool": "153863.4018"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "Battle Royale",
+        "total_tournaments": "1138",
+        "total_players": "9550",
+        "online_earnings": "85735959.91",
+        "total_earnings": "159090413.4",
+        "average_tournament_prize_pool": "139798.2543"
+    },
+    {
+        "releasedate": "2012",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "5834",
+        "total_players": "14170",
+        "online_earnings": "77935762.04",
+        "total_earnings": "119035810",
+        "average_tournament_prize_pool": "20403.807"
+    },
+    {
+        "releasedate": "2009",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "2606",
+        "total_players": "7801",
+        "online_earnings": "75284691.41",
+        "total_earnings": "84189144.84",
+        "average_tournament_prize_pool": "32305.88827"
+    },
+    {
+        "releasedate": "2015",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "541",
+        "total_players": "1984",
+        "online_earnings": "39073600.64",
+        "total_earnings": "44756470.32",
+        "average_tournament_prize_pool": "82729.15031"
+    },
+    {
+        "releasedate": "2010",
+        "genre": "Strategy",
+        "total_tournaments": "6250",
+        "total_players": "2826",
+        "online_earnings": "32822906.45",
+        "total_earnings": "40064488.3",
+        "average_tournament_prize_pool": "6410.318128"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "853",
+        "total_players": "4040",
+        "online_earnings": "22813744.18",
+        "total_earnings": "31923031.98",
+        "average_tournament_prize_pool": "37424.42202"
+    },
+    {
+        "releasedate": "2015",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "558",
+        "total_players": "3109",
+        "online_earnings": "25484096.14",
+        "total_earnings": "31006169.11",
+        "average_tournament_prize_pool": "55566.61131"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "929",
+        "total_players": "2530",
+        "online_earnings": "18482179.57",
+        "total_earnings": "25244153.47",
+        "average_tournament_prize_pool": "27173.46983"
+    },
+    {
+        "releasedate": "2015",
+        "genre": "Sports",
+        "total_tournaments": "1593",
+        "total_players": "1732",
+        "online_earnings": "4313065.86",
+        "total_earnings": "14913530.86",
+        "average_tournament_prize_pool": "9361.915166"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "801",
+        "total_players": "4175",
+        "online_earnings": "1385091.39",
+        "total_earnings": "13923416.7",
+        "average_tournament_prize_pool": "17382.5427"
+    },
+    {
+        "releasedate": "2000",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "1017",
+        "total_players": "4225",
+        "online_earnings": "12840725.72",
+        "total_earnings": "13553955.46",
+        "average_tournament_prize_pool": "13327.38983"
+    },
+    {
+        "releasedate": "2007",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "648",
+        "total_players": "2673",
+        "online_earnings": "9015668.29",
+        "total_earnings": "10112077.85",
+        "average_tournament_prize_pool": "15605.05841"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "132",
+        "total_players": "792",
+        "online_earnings": "8569658.44",
+        "total_earnings": "10047533.94",
+        "average_tournament_prize_pool": "76117.68136"
+    },
+    {
+        "releasedate": "1998",
+        "genre": "Strategy",
+        "total_tournaments": "682",
+        "total_players": "683",
+        "online_earnings": "8075539.32",
+        "total_earnings": "8502810.61",
+        "average_tournament_prize_pool": "12467.46424"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "122",
+        "total_players": "720",
+        "online_earnings": "7087034.18",
+        "total_earnings": "7797451.97",
+        "average_tournament_prize_pool": "63913.54074"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "89",
+        "total_players": "456",
+        "online_earnings": "678562.5",
+        "total_earnings": "7591214.5",
+        "average_tournament_prize_pool": "85294.54494"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "362",
+        "total_players": "623",
+        "online_earnings": "6819273.6",
+        "total_earnings": "7388289.19",
+        "average_tournament_prize_pool": "20409.63865"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Battle Royale",
+        "total_tournaments": "336",
+        "total_players": "1399",
+        "online_earnings": "2014420.75",
+        "total_earnings": "6664325.69",
+        "average_tournament_prize_pool": "19834.30265"
+    },
+    {
+        "releasedate": "2004",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "439",
+        "total_players": "1835",
+        "online_earnings": "6065246.59",
+        "total_earnings": "6305702.85",
+        "average_tournament_prize_pool": "14363.78781"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "205",
+        "total_players": "517",
+        "online_earnings": "5365635.81",
+        "total_earnings": "6131178.54",
+        "average_tournament_prize_pool": "29908.188"
+    },
+    {
+        "releasedate": "2002",
+        "genre": "Strategy",
+        "total_tournaments": "1350",
+        "total_players": "696",
+        "online_earnings": "5090870.86",
+        "total_earnings": "5896706.31",
+        "average_tournament_prize_pool": "4367.9306"
+    },
+    {
+        "releasedate": "2004",
+        "genre": "Role-Playing Game",
+        "total_tournaments": "120",
+        "total_players": "425",
+        "online_earnings": "4673888.91",
+        "total_earnings": "5015837.61",
+        "average_tournament_prize_pool": "41798.64675"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "Sports",
+        "total_tournaments": "69",
+        "total_players": "434",
+        "online_earnings": "4068714.5",
+        "total_earnings": "4471390.31",
+        "average_tournament_prize_pool": "64802.75812"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "Fighting Game",
+        "total_tournaments": "1828",
+        "total_players": "2856",
+        "online_earnings": "4099303.56",
+        "total_earnings": "4439027.92",
+        "average_tournament_prize_pool": "2428.352254"
+    },
+    {
+        "releasedate": "2015",
+        "genre": "Fighting Game",
+        "total_tournaments": "965",
+        "total_players": "1551",
+        "online_earnings": "3222402.01",
+        "total_earnings": "4400540.89",
+        "average_tournament_prize_pool": "4560.146"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "373",
+        "total_players": "891",
+        "online_earnings": "3835768.26",
+        "total_earnings": "4216200.98",
+        "average_tournament_prize_pool": "11303.48788"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "Sports",
+        "total_tournaments": "64",
+        "total_players": "406",
+        "online_earnings": "3581943.7",
+        "total_earnings": "3866074.31",
+        "average_tournament_prize_pool": "60407.41109"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Strategy",
+        "total_tournaments": "73",
+        "total_players": "472",
+        "online_earnings": "3209638.98",
+        "total_earnings": "3608678.27",
+        "average_tournament_prize_pool": "49433.9489"
+    },
+    {
+        "releasedate": "2001",
+        "genre": "Fighting Game",
+        "total_tournaments": "2642",
+        "total_players": "1931",
+        "online_earnings": "3215841.59",
+        "total_earnings": "3280660.36",
+        "average_tournament_prize_pool": "1241.733671"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "42",
+        "total_players": "141",
+        "online_earnings": "3055000",
+        "total_earnings": "3087385",
+        "average_tournament_prize_pool": "73509.16667"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "424",
+        "total_players": "880",
+        "online_earnings": "2733341.19",
+        "total_earnings": "3077513.98",
+        "average_tournament_prize_pool": "7258.287689"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Sports",
+        "total_tournaments": "69",
+        "total_players": "237",
+        "online_earnings": "3001310.34",
+        "total_earnings": "3001310.34",
+        "average_tournament_prize_pool": "43497.2513"
+    },
+    {
+        "releasedate": "2010",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "371",
+        "total_players": "813",
+        "online_earnings": "1552890.01",
+        "total_earnings": "2918706.56",
+        "average_tournament_prize_pool": "7867.133585"
+    },
+    {
+        "releasedate": "2013",
+        "genre": "Racing",
+        "total_tournaments": "382",
+        "total_players": "779",
+        "online_earnings": "1749560.29",
+        "total_earnings": "2806169.21",
+        "average_tournament_prize_pool": "7345.992696"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Strategy",
+        "total_tournaments": "63",
+        "total_players": "373",
+        "online_earnings": "1727493.75",
+        "total_earnings": "2689654.58",
+        "average_tournament_prize_pool": "42692.92984"
+    },
+    {
+        "releasedate": "2012",
+        "genre": "Strategy",
+        "total_tournaments": "35",
+        "total_players": "191",
+        "online_earnings": "1127101.87",
+        "total_earnings": "2631062.87",
+        "average_tournament_prize_pool": "75173.22486"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Fighting Game",
+        "total_tournaments": "233",
+        "total_players": "525",
+        "online_earnings": "2520996.4",
+        "total_earnings": "2524986.4",
+        "average_tournament_prize_pool": "10836.8515"
+    },
+    {
+        "releasedate": "2013",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "288",
+        "total_players": "625",
+        "online_earnings": "2344900.51",
+        "total_earnings": "2487620.33",
+        "average_tournament_prize_pool": "8637.57059"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "Fighting Game",
+        "total_tournaments": "1343",
+        "total_players": "1692",
+        "online_earnings": "2381196.75",
+        "total_earnings": "2384671.75",
+        "average_tournament_prize_pool": "1775.630491"
+    },
+    {
+        "releasedate": "2012",
+        "genre": "Sports",
+        "total_tournaments": "73",
+        "total_players": "150",
+        "online_earnings": "2352537.49",
+        "total_earnings": "2362769.72",
+        "average_tournament_prize_pool": "32366.70849"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Sports",
+        "total_tournaments": "63",
+        "total_players": "322",
+        "online_earnings": "1282013.14",
+        "total_earnings": "2333946.76",
+        "average_tournament_prize_pool": "37046.77397"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "Strategy",
+        "total_tournaments": "16",
+        "total_players": "74",
+        "online_earnings": "0",
+        "total_earnings": "2205625.43",
+        "average_tournament_prize_pool": "137851.5894"
+    },
+    {
+        "releasedate": "2008",
+        "genre": "Racing",
+        "total_tournaments": "207",
+        "total_players": "1194",
+        "online_earnings": "336571.85",
+        "total_earnings": "2069286.08",
+        "average_tournament_prize_pool": "9996.551111"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Battle Royale",
+        "total_tournaments": "13",
+        "total_players": "119",
+        "online_earnings": "2067122",
+        "total_earnings": "2067122",
+        "average_tournament_prize_pool": "159009.3846"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "Strategy",
+        "total_tournaments": "59",
+        "total_players": "340",
+        "online_earnings": "487826.91",
+        "total_earnings": "2062392.98",
+        "average_tournament_prize_pool": "34955.81322"
+    },
+    {
+        "releasedate": "1999",
+        "genre": "Strategy",
+        "total_tournaments": "989",
+        "total_players": "1357",
+        "online_earnings": "619582.87",
+        "total_earnings": "1949008.74",
+        "average_tournament_prize_pool": "1970.686289"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "24",
+        "total_players": "200",
+        "online_earnings": "680000",
+        "total_earnings": "1810250",
+        "average_tournament_prize_pool": "75427.08333"
+    },
+    {
+        "releasedate": "2010",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "492",
+        "total_players": "572",
+        "online_earnings": "1609058.15",
+        "total_earnings": "1790469.21",
+        "average_tournament_prize_pool": "3639.165061"
+    },
+    {
+        "releasedate": "2007",
+        "genre": "Strategy",
+        "total_tournaments": "288",
+        "total_players": "2033",
+        "online_earnings": "352816.17",
+        "total_earnings": "1777186.11",
+        "average_tournament_prize_pool": "6170.785104"
+    },
+    {
+        "releasedate": "1999",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "110",
+        "total_players": "264",
+        "online_earnings": "1270262.61",
+        "total_earnings": "1277446.44",
+        "average_tournament_prize_pool": "11613.14945"
+    },
+    {
+        "releasedate": "2002",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "10",
+        "total_players": "130",
+        "online_earnings": "1218000",
+        "total_earnings": "1218000",
+        "average_tournament_prize_pool": "121800"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "53",
+        "total_players": "217",
+        "online_earnings": "1175363.12",
+        "total_earnings": "1191223.12",
+        "average_tournament_prize_pool": "22475.90792"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "Fighting Game",
+        "total_tournaments": "232",
+        "total_players": "418",
+        "online_earnings": "1041474.85",
+        "total_earnings": "1050647.28",
+        "average_tournament_prize_pool": "4528.652069"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "Racing",
+        "total_tournaments": "52",
+        "total_players": "304",
+        "online_earnings": "723778.44",
+        "total_earnings": "936935.42",
+        "average_tournament_prize_pool": "18017.98885"
+    },
+    {
+        "releasedate": "2005",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "96",
+        "total_players": "214",
+        "online_earnings": "895664.91",
+        "total_earnings": "907651.57",
+        "average_tournament_prize_pool": "9454.703854"
+    },
+    {
+        "releasedate": "2012",
+        "genre": "Role-Playing Game",
+        "total_tournaments": "62",
+        "total_players": "203",
+        "online_earnings": "759355.52",
+        "total_earnings": "885361.02",
+        "average_tournament_prize_pool": "14280.01645"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Racing",
+        "total_tournaments": "157",
+        "total_players": "243",
+        "online_earnings": "2500",
+        "total_earnings": "882051.18",
+        "average_tournament_prize_pool": "5618.160382"
+    },
+    {
+        "releasedate": "2003",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "94",
+        "total_players": "468",
+        "online_earnings": "829658.68",
+        "total_earnings": "857420.65",
+        "average_tournament_prize_pool": "9121.496277"
+    },
+    {
+        "releasedate": "2008",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "48",
+        "total_players": "334",
+        "online_earnings": "668898.15",
+        "total_earnings": "786167.75",
+        "average_tournament_prize_pool": "16378.49479"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Fighting Game",
+        "total_tournaments": "125",
+        "total_players": "555",
+        "online_earnings": "622320.53",
+        "total_earnings": "777351.87",
+        "average_tournament_prize_pool": "6218.81496"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Racing",
+        "total_tournaments": "10",
+        "total_players": "67",
+        "online_earnings": "548266.13",
+        "total_earnings": "748766.13",
+        "average_tournament_prize_pool": "74876.613"
+    },
+    {
+        "releasedate": "2010",
+        "genre": "Fighting Game",
+        "total_tournaments": "652",
+        "total_players": "991",
+        "online_earnings": "659830.93",
+        "total_earnings": "673488.81",
+        "average_tournament_prize_pool": "1032.958298"
+    },
+    {
+        "releasedate": "2004",
+        "genre": "Racing",
+        "total_tournaments": "25",
+        "total_players": "89",
+        "online_earnings": "646995.83",
+        "total_earnings": "646995.83",
+        "average_tournament_prize_pool": "25879.8332"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Strategy",
+        "total_tournaments": "121",
+        "total_players": "122",
+        "online_earnings": "295883.84",
+        "total_earnings": "585263.84",
+        "average_tournament_prize_pool": "4836.89124"
+    },
+    {
+        "releasedate": "2005",
+        "genre": "Fighting Game",
+        "total_tournaments": "20",
+        "total_players": "64",
+        "online_earnings": "508165.31",
+        "total_earnings": "508445.31",
+        "average_tournament_prize_pool": "25422.2655"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Fighting Game",
+        "total_tournaments": "99",
+        "total_players": "169",
+        "online_earnings": "333374.42",
+        "total_earnings": "497722.11",
+        "average_tournament_prize_pool": "5027.496061"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "32",
+        "total_players": "127",
+        "online_earnings": "50850",
+        "total_earnings": "471444.47",
+        "average_tournament_prize_pool": "14732.63969"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Battle Royale",
+        "total_tournaments": "9",
+        "total_players": "306",
+        "online_earnings": "0",
+        "total_earnings": "434273.83",
+        "average_tournament_prize_pool": "48252.64778"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Sports",
+        "total_tournaments": "9",
+        "total_players": "71",
+        "online_earnings": "84140.13",
+        "total_earnings": "424635.53",
+        "average_tournament_prize_pool": "47181.72556"
+    },
+    {
+        "releasedate": "2013",
+        "genre": "Role-Playing Game",
+        "total_tournaments": "22",
+        "total_players": "66",
+        "online_earnings": "28500",
+        "total_earnings": "422504.2",
+        "average_tournament_prize_pool": "19204.73636"
+    },
+    {
+        "releasedate": "2000",
+        "genre": "Strategy",
+        "total_tournaments": "6",
+        "total_players": "24",
+        "online_earnings": "409551.61",
+        "total_earnings": "409551.61",
+        "average_tournament_prize_pool": "68258.60167"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "Fighting Game",
+        "total_tournaments": "353",
+        "total_players": "449",
+        "online_earnings": "406179.15",
+        "total_earnings": "406726.25",
+        "average_tournament_prize_pool": "1152.199008"
+    },
+    {
+        "releasedate": "2001",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "43",
+        "total_players": "145",
+        "online_earnings": "406705.3",
+        "total_earnings": "406705.3",
+        "average_tournament_prize_pool": "9458.262791"
+    },
+    {
+        "releasedate": "2013",
+        "genre": "Fighting Game",
+        "total_tournaments": "234",
+        "total_players": "414",
+        "online_earnings": "286377.42",
+        "total_earnings": "395097.42",
+        "average_tournament_prize_pool": "1688.450513"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "Racing",
+        "total_tournaments": "64",
+        "total_players": "196",
+        "online_earnings": "246511.4",
+        "total_earnings": "381231.71",
+        "average_tournament_prize_pool": "5956.745469"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "77",
+        "total_players": "99",
+        "online_earnings": "325000",
+        "total_earnings": "362398.45",
+        "average_tournament_prize_pool": "4706.473377"
+    },
+    {
+        "releasedate": "2006",
+        "genre": "Sports",
+        "total_tournaments": "16",
+        "total_players": "48",
+        "online_earnings": "358029.05",
+        "total_earnings": "358029.05",
+        "average_tournament_prize_pool": "22376.81563"
+    },
+    {
+        "releasedate": "2005",
+        "genre": "Racing",
+        "total_tournaments": "21",
+        "total_players": "102",
+        "online_earnings": "332981.39",
+        "total_earnings": "348064.95",
+        "average_tournament_prize_pool": "16574.52143"
+    },
+    {
+        "releasedate": "2007",
+        "genre": "Sports",
+        "total_tournaments": "23",
+        "total_players": "83",
+        "online_earnings": "328214.09",
+        "total_earnings": "328214.09",
+        "average_tournament_prize_pool": "14270.17783"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "4",
+        "total_players": "260",
+        "online_earnings": "0",
+        "total_earnings": "299000",
+        "average_tournament_prize_pool": "74750"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "Racing",
+        "total_tournaments": "17",
+        "total_players": "42",
+        "online_earnings": "281770",
+        "total_earnings": "287108",
+        "average_tournament_prize_pool": "16888.70588"
+    },
+    {
+        "releasedate": "2007",
+        "genre": "Racing",
+        "total_tournaments": "9",
+        "total_players": "34",
+        "online_earnings": "279416.92",
+        "total_earnings": "279416.92",
+        "average_tournament_prize_pool": "31046.32444"
+    },
+    {
+        "releasedate": "2008",
+        "genre": "Fighting Game",
+        "total_tournaments": "357",
+        "total_players": "540",
+        "online_earnings": "263370.83",
+        "total_earnings": "263370.83",
+        "average_tournament_prize_pool": "737.7334174"
+    },
+    {
+        "releasedate": "2006",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "18",
+        "total_players": "33",
+        "online_earnings": "252195.57",
+        "total_earnings": "252195.57",
+        "average_tournament_prize_pool": "14010.865"
+    },
+    {
+        "releasedate": "2005",
+        "genre": "Sports",
+        "total_tournaments": "14",
+        "total_players": "28",
+        "online_earnings": "244464.53",
+        "total_earnings": "244464.53",
+        "average_tournament_prize_pool": "17461.75214"
+    },
+    {
+        "releasedate": "2003",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "24",
+        "total_players": "240",
+        "online_earnings": "239306.64",
+        "total_earnings": "241893.01",
+        "average_tournament_prize_pool": "10078.87542"
+    },
+    {
+        "releasedate": "2015",
+        "genre": "Racing",
+        "total_tournaments": "124",
+        "total_players": "93",
+        "online_earnings": "180802.71",
+        "total_earnings": "240629.21",
+        "average_tournament_prize_pool": "1940.558145"
+    },
+    {
+        "releasedate": "2008",
+        "genre": "Sports",
+        "total_tournaments": "22",
+        "total_players": "58",
+        "online_earnings": "215321.42",
+        "total_earnings": "223014.31",
+        "average_tournament_prize_pool": "10137.01409"
+    },
+    {
+        "releasedate": "2006",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "13",
+        "total_players": "137",
+        "online_earnings": "218946.91",
+        "total_earnings": "218946.91",
+        "average_tournament_prize_pool": "16842.07"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "Strategy",
+        "total_tournaments": "25",
+        "total_players": "173",
+        "online_earnings": "211500",
+        "total_earnings": "211602",
+        "average_tournament_prize_pool": "8464.08"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "7",
+        "total_players": "49",
+        "online_earnings": "0",
+        "total_earnings": "206630",
+        "average_tournament_prize_pool": "29518.57143"
+    },
+    {
+        "releasedate": "2012",
+        "genre": "Fighting Game",
+        "total_tournaments": "172",
+        "total_players": "374",
+        "online_earnings": "192425.09",
+        "total_earnings": "198443.95",
+        "average_tournament_prize_pool": "1153.743895"
+    },
+    {
+        "releasedate": "1997",
+        "genre": "Strategy",
+        "total_tournaments": "96",
+        "total_players": "255",
+        "online_earnings": "156839.89",
+        "total_earnings": "190262.81",
+        "average_tournament_prize_pool": "1981.904271"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "Battle Royale",
+        "total_tournaments": "6",
+        "total_players": "21",
+        "online_earnings": "0",
+        "total_earnings": "190000",
+        "average_tournament_prize_pool": "31666.66667"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "Sports",
+        "total_tournaments": "357",
+        "total_players": "177",
+        "online_earnings": "146141.07",
+        "total_earnings": "174075.91",
+        "average_tournament_prize_pool": "487.607591"
+    },
+    {
+        "releasedate": "2007",
+        "genre": "Fighting Game",
+        "total_tournaments": "42",
+        "total_players": "109",
+        "online_earnings": "170069.64",
+        "total_earnings": "170089.64",
+        "average_tournament_prize_pool": "4049.753333"
+    },
+    {
+        "releasedate": "2015",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "3",
+        "total_players": "39",
+        "online_earnings": "170000",
+        "total_earnings": "170000",
+        "average_tournament_prize_pool": "56666.66667"
+    },
+    {
+        "releasedate": "2002",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "15",
+        "total_players": "33",
+        "online_earnings": "155153.16",
+        "total_earnings": "155153.16",
+        "average_tournament_prize_pool": "10343.544"
+    },
+    {
+        "releasedate": "2021",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "1",
+        "total_players": "96",
+        "online_earnings": "0",
+        "total_earnings": "150000",
+        "average_tournament_prize_pool": "150000"
+    },
+    {
+        "releasedate": "2005",
+        "genre": "Strategy",
+        "total_tournaments": "80",
+        "total_players": "115",
+        "online_earnings": "121316.5",
+        "total_earnings": "148430.35",
+        "average_tournament_prize_pool": "1855.379375"
+    },
+    {
+        "releasedate": "1997",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "12",
+        "total_players": "34",
+        "online_earnings": "139800",
+        "total_earnings": "140425.98",
+        "average_tournament_prize_pool": "11702.165"
+    },
+    {
+        "releasedate": "2008",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "5",
+        "total_players": "0",
+        "online_earnings": "135000",
+        "total_earnings": "135000",
+        "average_tournament_prize_pool": "27000"
+    },
+    {
+        "releasedate": "2006",
+        "genre": "Racing",
+        "total_tournaments": "13",
+        "total_players": "33",
+        "online_earnings": "90731.74",
+        "total_earnings": "130731.74",
+        "average_tournament_prize_pool": "10056.28769"
+    },
+    {
+        "releasedate": "2013",
+        "genre": "Sports",
+        "total_tournaments": "73",
+        "total_players": "67",
+        "online_earnings": "119811.69",
+        "total_earnings": "128782.02",
+        "average_tournament_prize_pool": "1764.13726"
+    },
+    {
+        "releasedate": "2009",
+        "genre": "Sports",
+        "total_tournaments": "49",
+        "total_players": "67",
+        "online_earnings": "100647.21",
+        "total_earnings": "127526.71",
+        "average_tournament_prize_pool": "2602.585918"
+    },
+    {
+        "releasedate": "1999",
+        "genre": "Fighting Game",
+        "total_tournaments": "177",
+        "total_players": "360",
+        "online_earnings": "118850.88",
+        "total_earnings": "120028.09",
+        "average_tournament_prize_pool": "678.1248023"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "13",
+        "total_players": "51",
+        "online_earnings": "0",
+        "total_earnings": "119333.03",
+        "average_tournament_prize_pool": "9179.463846"
+    },
+    {
+        "releasedate": "2009",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "20",
+        "total_players": "65",
+        "online_earnings": "51010.64",
+        "total_earnings": "115360.64",
+        "average_tournament_prize_pool": "5768.032"
+    },
+    {
+        "releasedate": "1999",
+        "genre": "Sports",
+        "total_tournaments": "5",
+        "total_players": "15",
+        "online_earnings": "110500",
+        "total_earnings": "110500",
+        "average_tournament_prize_pool": "22100"
+    },
+    {
+        "releasedate": "1996",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "18",
+        "total_players": "51",
+        "online_earnings": "98005.44",
+        "total_earnings": "103651.67",
+        "average_tournament_prize_pool": "5758.426111"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "42",
+        "total_players": "63",
+        "online_earnings": "77500",
+        "total_earnings": "103534.2",
+        "average_tournament_prize_pool": "2465.1"
+    },
+    {
+        "releasedate": "2018",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "1",
+        "total_players": "8",
+        "online_earnings": "0",
+        "total_earnings": "100000",
+        "average_tournament_prize_pool": "100000"
+    },
+    {
+        "releasedate": "2004",
+        "genre": "Sports",
+        "total_tournaments": "10",
+        "total_players": "16",
+        "online_earnings": "98278.65",
+        "total_earnings": "98278.65",
+        "average_tournament_prize_pool": "9827.865"
+    },
+    {
+        "releasedate": "2002",
+        "genre": "Sports",
+        "total_tournaments": "4",
+        "total_players": "18",
+        "online_earnings": "97066.44",
+        "total_earnings": "97066.44",
+        "average_tournament_prize_pool": "24266.61"
+    },
+    {
+        "releasedate": "2010",
+        "genre": "Sports",
+        "total_tournaments": "78",
+        "total_players": "72",
+        "online_earnings": "85154.02",
+        "total_earnings": "93983.77",
+        "average_tournament_prize_pool": "1204.920128"
+    },
+    {
+        "releasedate": "2003",
+        "genre": "Racing",
+        "total_tournaments": "12",
+        "total_players": "29",
+        "online_earnings": "79219.14",
+        "total_earnings": "81599.14",
+        "average_tournament_prize_pool": "6799.928333"
+    },
+    {
+        "releasedate": "2006",
+        "genre": "Strategy",
+        "total_tournaments": "1",
+        "total_players": "8",
+        "online_earnings": "69600",
+        "total_earnings": "69600",
+        "average_tournament_prize_pool": "69600"
+    },
+    {
+        "releasedate": "2003",
+        "genre": "Sports",
+        "total_tournaments": "6",
+        "total_players": "14",
+        "online_earnings": "66500",
+        "total_earnings": "66500",
+        "average_tournament_prize_pool": "11083.33333"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "Sports",
+        "total_tournaments": "68",
+        "total_players": "59",
+        "online_earnings": "47982.35",
+        "total_earnings": "55134.45",
+        "average_tournament_prize_pool": "810.8007353"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Role-Playing Game",
+        "total_tournaments": "2",
+        "total_players": "56",
+        "online_earnings": "0",
+        "total_earnings": "54250",
+        "average_tournament_prize_pool": "27125"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "2",
+        "total_players": "48",
+        "online_earnings": "0",
+        "total_earnings": "50000",
+        "average_tournament_prize_pool": "25000"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "2",
+        "total_players": "64",
+        "online_earnings": "0",
+        "total_earnings": "50000",
+        "average_tournament_prize_pool": "25000"
+    },
+    {
+        "releasedate": "2000",
+        "genre": "Sports",
+        "total_tournaments": "2",
+        "total_players": "9",
+        "online_earnings": "46000",
+        "total_earnings": "46000",
+        "average_tournament_prize_pool": "23000"
+    },
+    {
+        "releasedate": "2004",
+        "genre": "Fighting Game",
+        "total_tournaments": "18",
+        "total_players": "35",
+        "online_earnings": "40944.17",
+        "total_earnings": "41234.63",
+        "average_tournament_prize_pool": "2290.812778"
+    },
+    {
+        "releasedate": "2000",
+        "genre": "Fighting Game",
+        "total_tournaments": "33",
+        "total_players": "76",
+        "online_earnings": "39355",
+        "total_earnings": "40676.6",
+        "average_tournament_prize_pool": "1232.624242"
+    },
+    {
+        "releasedate": "2015",
+        "genre": "Strategy",
+        "total_tournaments": "5",
+        "total_players": "18",
+        "online_earnings": "30400",
+        "total_earnings": "36400",
+        "average_tournament_prize_pool": "7280"
+    },
+    {
+        "releasedate": "1994",
+        "genre": "Fighting Game",
+        "total_tournaments": "47",
+        "total_players": "111",
+        "online_earnings": "24387.45",
+        "total_earnings": "24387.45",
+        "average_tournament_prize_pool": "518.8819149"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "Racing",
+        "total_tournaments": "37",
+        "total_players": "23",
+        "online_earnings": "16691.41",
+        "total_earnings": "22231.11",
+        "average_tournament_prize_pool": "600.8408108"
+    },
+    {
+        "releasedate": "2009",
+        "genre": "Racing",
+        "total_tournaments": "3",
+        "total_players": "6",
+        "online_earnings": "21500",
+        "total_earnings": "21500",
+        "average_tournament_prize_pool": "7166.666667"
+    },
+    {
+        "releasedate": "2021",
+        "genre": "Fighting Game",
+        "total_tournaments": "29",
+        "total_players": "85",
+        "online_earnings": "0",
+        "total_earnings": "17034.34",
+        "average_tournament_prize_pool": "587.3910345"
+    },
+    {
+        "releasedate": "2003",
+        "genre": "Fighting Game",
+        "total_tournaments": "9",
+        "total_players": "26",
+        "online_earnings": "15040",
+        "total_earnings": "15040",
+        "average_tournament_prize_pool": "1671.111111"
+    },
+    {
+        "releasedate": "2009",
+        "genre": "Fighting Game",
+        "total_tournaments": "23",
+        "total_players": "79",
+        "online_earnings": "9918.22",
+        "total_earnings": "14199.74",
+        "average_tournament_prize_pool": "617.38"
+    },
+    {
+        "releasedate": "2017",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "1",
+        "total_players": "35",
+        "online_earnings": "0",
+        "total_earnings": "12339.33",
+        "average_tournament_prize_pool": "12339.33"
+    },
+    {
+        "releasedate": "2006",
+        "genre": "Fighting Game",
+        "total_tournaments": "6",
+        "total_players": "21",
+        "online_earnings": "12180",
+        "total_earnings": "12280",
+        "average_tournament_prize_pool": "2046.666667"
+    },
+    {
+        "releasedate": "2008",
+        "genre": "Puzzle Game",
+        "total_tournaments": "1",
+        "total_players": "3",
+        "online_earnings": "12000",
+        "total_earnings": "12000",
+        "average_tournament_prize_pool": "12000"
+    },
+    {
+        "releasedate": "2001",
+        "genre": "Racing",
+        "total_tournaments": "3",
+        "total_players": "4",
+        "online_earnings": "10929.25",
+        "total_earnings": "10929.25",
+        "average_tournament_prize_pool": "3643.083333"
+    },
+    {
+        "releasedate": "1995",
+        "genre": "Strategy",
+        "total_tournaments": "1",
+        "total_players": "6",
+        "online_earnings": "0",
+        "total_earnings": "10000",
+        "average_tournament_prize_pool": "10000"
+    },
+    {
+        "releasedate": "1997",
+        "genre": "Fighting Game",
+        "total_tournaments": "18",
+        "total_players": "32",
+        "online_earnings": "8038.74",
+        "total_earnings": "9185.95",
+        "average_tournament_prize_pool": "510.3305556"
+    },
+    {
+        "releasedate": "2013",
+        "genre": "Strategy",
+        "total_tournaments": "6",
+        "total_players": "11",
+        "online_earnings": "7956.22",
+        "total_earnings": "8561.22",
+        "average_tournament_prize_pool": "1426.87"
+    },
+    {
+        "releasedate": "1998",
+        "genre": "Fighting Game",
+        "total_tournaments": "12",
+        "total_players": "35",
+        "online_earnings": "8277.57",
+        "total_earnings": "8363.57",
+        "average_tournament_prize_pool": "696.9641667"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "4",
+        "total_players": "13",
+        "online_earnings": "4555.81",
+        "total_earnings": "7255.81",
+        "average_tournament_prize_pool": "1813.9525"
+    },
+    {
+        "releasedate": "2002",
+        "genre": "Racing",
+        "total_tournaments": "1",
+        "total_players": "0",
+        "online_earnings": "5933.5",
+        "total_earnings": "5933.5",
+        "average_tournament_prize_pool": "5933.5"
+    },
+    {
+        "releasedate": "1994",
+        "genre": "First-Person Shooter",
+        "total_tournaments": "8",
+        "total_players": "14",
+        "online_earnings": "2200",
+        "total_earnings": "5108.56",
+        "average_tournament_prize_pool": "638.57"
+    },
+    {
+        "releasedate": "1994",
+        "genre": "Strategy",
+        "total_tournaments": "13",
+        "total_players": "33",
+        "online_earnings": "4132.16",
+        "total_earnings": "4621.47",
+        "average_tournament_prize_pool": "355.4976923"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "Strategy",
+        "total_tournaments": "12",
+        "total_players": "19",
+        "online_earnings": "0",
+        "total_earnings": "4078.56",
+        "average_tournament_prize_pool": "339.88"
+    },
+    {
+        "releasedate": "2014",
+        "genre": "Puzzle Game",
+        "total_tournaments": "19",
+        "total_players": "46",
+        "online_earnings": "1838.75",
+        "total_earnings": "3918.84",
+        "average_tournament_prize_pool": "206.2547368"
+    },
+    {
+        "releasedate": "1993",
+        "genre": "Sports",
+        "total_tournaments": "8",
+        "total_players": "25",
+        "online_earnings": "3818.56",
+        "total_earnings": "3818.56",
+        "average_tournament_prize_pool": "477.32"
+    },
+    {
+        "releasedate": "1995",
+        "genre": "Fighting Game",
+        "total_tournaments": "16",
+        "total_players": "31",
+        "online_earnings": "3421.19",
+        "total_earnings": "3501.19",
+        "average_tournament_prize_pool": "218.824375"
+    },
+    {
+        "releasedate": "2020",
+        "genre": "Puzzle Game",
+        "total_tournaments": "14",
+        "total_players": "27",
+        "online_earnings": "0",
+        "total_earnings": "3250.13",
+        "average_tournament_prize_pool": "232.1521429"
+    },
+    {
+        "releasedate": "2019",
+        "genre": "Puzzle Game",
+        "total_tournaments": "6",
+        "total_players": "17",
+        "online_earnings": "2256.8",
+        "total_earnings": "2667.3",
+        "average_tournament_prize_pool": "444.55"
+    },
+    {
+        "releasedate": "1996",
+        "genre": "Fighting Game",
+        "total_tournaments": "10",
+        "total_players": "25",
+        "online_earnings": "1390",
+        "total_earnings": "2604.69",
+        "average_tournament_prize_pool": "260.469"
+    },
+    {
+        "releasedate": "2011",
+        "genre": "Puzzle Game",
+        "total_tournaments": "8",
+        "total_players": "14",
+        "online_earnings": "1470",
+        "total_earnings": "1735.95",
+        "average_tournament_prize_pool": "216.99375"
+    },
+    {
+        "releasedate": "2016",
+        "genre": "Racing",
+        "total_tournaments": "4",
+        "total_players": "11",
+        "online_earnings": "0",
+        "total_earnings": "829.41",
+        "average_tournament_prize_pool": "207.3525"
+    },
+    {
+        "releasedate": "1993",
+        "genre": "Fighting Game",
+        "total_tournaments": "2",
+        "total_players": "7",
+        "online_earnings": "820",
+        "total_earnings": "820",
+        "average_tournament_prize_pool": "410"
+    },
+    {
+        "releasedate": "1996",
+        "genre": "Puzzle Game",
+        "total_tournaments": "2",
+        "total_players": "4",
+        "online_earnings": "0",
+        "total_earnings": "150",
+        "average_tournament_prize_pool": "75"
+    },
+    {
+        "releasedate": "1997",
+        "genre": "Puzzle Game",
+        "total_tournaments": "1",
+        "total_players": "3",
+        "online_earnings": "130",
+        "total_earnings": "130",
+        "average_tournament_prize_pool": "130"
+    },
+    {
+        "releasedate": "2002",
+        "genre": "Fighting Game",
+        "total_tournaments": "7",
+        "total_players": "16",
+        "online_earnings": "0",
+        "total_earnings": "90",
+        "average_tournament_prize_pool": "12.85714286"
+    },
+    {
+        "releasedate": "2009",
+        "genre": "Strategy",
+        "total_tournaments": "0",
+        "total_players": "0",
+        "online_earnings": "0",
+        "total_earnings": "0",
+        "average_tournament_prize_pool": "0"
+    },
+    {
+        "releasedate": "2007",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "0",
+        "total_players": "0",
+        "online_earnings": "0",
+        "total_earnings": "0",
+        "average_tournament_prize_pool": "0"
+    },
+    {
+        "releasedate": "2021",
+        "genre": "Third-Person Shooter",
+        "total_tournaments": "0",
+        "total_players": "0",
+        "online_earnings": "0",
+        "total_earnings": "0",
+        "average_tournament_prize_pool": "0"
+    },
+    {
+        "releasedate": "2004",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "0",
+        "total_players": "0",
+        "online_earnings": "0",
+        "total_earnings": "0",
+        "average_tournament_prize_pool": "0"
+    },
+    {
+        "releasedate": "1996",
+        "genre": "Collectible Card Game",
+        "total_tournaments": "0",
+        "total_players": "0",
+        "online_earnings": "0",
+        "total_earnings": "0",
+        "average_tournament_prize_pool": "0"
+    },
+    {
+        "releasedate": "2006",
+        "genre": "Multiplayer Online Battle Arena",
+        "total_tournaments": "0",
+        "total_players": "0",
+        "online_earnings": "0",
+        "total_earnings": "0",
+        "average_tournament_prize_pool": "0"
+    }
+]

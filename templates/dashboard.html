@@ -3,9 +3,28 @@
 {% set active_page = "dashboard" %}
 
 {% block content %}
-<select id="game-names-drop-down"></select>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 <script src="{{url_for('static', filename='js/dashboard.js')}}"></script>
+<div id="barchart"></div>
+<script src="https://d3js.org/d3.v6.min.js"></script>
 
+
+
+<select id="selDataset">
+<option value="ESportsAll">All Genres</option>
+<option value="ESportsBattle">Battle Royale</option>
+<option value="ESportsCard">Collectible Game Card</option>
+<option value="ESportsFighting">Fighting Game</option>
+<option value="ESportsFirst">First-Person Shooter</option>
+<option value="ESportsArena">Multiplayer Online Battle Arena</option>
+<option value="ESportsPuzzle">Puzzle Game</option>
+<option value="ESportsRacing">Racing</option>
+<option value="ESportsRole">Role-Playing Game</option>
+<option value="ESportsSports">Sports</option>
+<option value="ESportsStrategy">Strategy</option>
+<option value="ESportsThird">Third-Person Shooter</option>
+
+
+</select>
 {% endblock %}
