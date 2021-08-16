@@ -2,8 +2,7 @@
 from flask import Flask, render_template, jsonify
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
-from scipy.stats import linregress 
+
 # import datetime
 # from scipy import stats
 # from scipy.optimize import curve_fit
