@@ -20,7 +20,7 @@ body {
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
   .navbar li {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
@@ -35,11 +35,10 @@ body {
   }
   
   /* Styling the header, giving it a height, a background color, and some top padding */
-  .header {
+  /* .header {
     height: 200px;
     padding-top: 20px;
-    /* background: #5e55557c; */
-  }
+  } */
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
   .header h1 {
