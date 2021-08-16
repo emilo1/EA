@@ -1,6 +1,7 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
     background: #f8ecec7c;
+    background-image:url('https://wallpaperaccess.com/full/4117533.jpg'); background-repeat: no-repeat;background-size: 100%;
   }
   
   h1 {

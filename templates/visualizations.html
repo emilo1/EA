@@ -3,6 +3,7 @@
 {% set active_page = "visualizations" %}
 
 {% block content %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/nobackgroundimage.css')}}" />
 <div class="row" style="margin-left:-100px;margin-right:-100px;">
     <div class="col-md-4">
         <img style="margin-top: 10px;"  src="{{url_for('static', filename='images/barsubplots.png')}}" width="100%">

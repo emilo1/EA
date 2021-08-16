@@ -1,4 +1,8 @@
 body{margin-top:20px;}
+.single-team{
+    background-color: #c1c1c199;
+}
+
 .single-team .inner {
     text-align: center;
 	margin-bottom: 35px;
